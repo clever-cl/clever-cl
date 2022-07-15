@@ -26,4 +26,4 @@ con respeto absoluto en la privacidad y derechos de las personas. Cualquier mal 
 
 ## Wiki
 
-- [Wiki Home](wiki/Home)
+- [Wiki Home](https://github.com/clever-cl/clever-cl.github.io/wiki)
