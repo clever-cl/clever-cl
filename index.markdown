@@ -24,3 +24,5 @@ Lo disponemos de buena fe y estamos ansiosos de recibir feedback
 con respeto absoluto en la privacidad y derechos de las personas. Cualquier mal uso resultará en la cancelación y bloqueo del usuario (sin limitar potenciales acciones legales de acuerdo a la legislación vigente).
 
 ## Wiki
+
+- [Wiki Home](wiki/Home)
