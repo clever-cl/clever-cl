@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Clever by Bice → Devs Tools
+title: Clever by Bice
 email: devs@clever.cl
 description: >- # this means to ignore newlines until "baseurl:"
   Clever by BICE is a robo-advisor platform that empowers
@@ -29,9 +29,15 @@ twitter_username: somosclever
 github_username:  clever-cl
 
 # Build settings
-theme: minima
+# theme: minima
+theme: just-the-docs
+search_enabled: true
+search.heading_level: 2
+
 plugins:
   - jekyll-feed
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

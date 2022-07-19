@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About Us
+nav_order: 2
 ---
 Clever by BICE is  a robo-advisor platform that empowers
 to people to invest in a digital, secure, and self-assisted environment.
