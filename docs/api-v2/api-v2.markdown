@@ -22,13 +22,57 @@ Para registrar tu Client App en nuestro portal puedes escribirnos a devs@clever.
 
 Indicando claramente los siguientes puntos, puedes usar el mismo template:
 
-| Client App       | Value             |
+| Client App                  | Value                                       |
+|:----------------------------|:--------------------------------------------|
+| Name                        | My App                                      |
+| Callback URL                | https://myapp.example.com/callabck          |
+| Objetivo                    | Objetivo                                    |
+| Términos y condiciones  URL | https://miapp.com/terms-and-conds           |
+| Email Owner                 | owner@example.com                           |
+| Email Soporte               | support@example.com                         |
+| RR.SS URLs  (optional)      | `discord` `slack` `twitter` `ig` `facebook` |
+
+
+## Health Check
+
+### Endpoint
+```
+GET /api/v2/health/check
+```
+### Headers
+
+| headers       | Value             |
 |:--------------|:------------------|
-| Name          | My App  |
-| Objetivo      | Objetivo  |
-| Términos y condiciones  URL | https://miapp.com/terms-and-conds  |
-| Email Owner   | owner@example.com  |
-| Email Soporte | support@example.com |
-| RR.SS URLs  (optional)  | `discord` `slack` `twitter` `ig` `facebook` |
+| Content-Type  | application/json  |
+| Accept        | application/json  |
 
+### Response
 
+<table>
+   <tr>
+      <td> Status </td>
+      <td> Response </td>
+   </tr>
+   <tr>
+      <td> 200 </td>
+      <td>
+         <pre>
+{
+    "alive": "yes"
+}
+         </pre>
+      </td>
+   </tr>
+   <tr>
+      <td> 404 </td>
+      <td>
+        Not Found
+      </td>
+   </tr>
+   <tr>
+      <td> 500 </td>
+      <td>
+         Internal Server Error    
+      </td>
+   </tr>
+</table>
