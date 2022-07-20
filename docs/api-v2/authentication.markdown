@@ -104,7 +104,7 @@ POST /api/v2/oauth/token
 ## Request example
 
 ```bash
-$ curl -X POST http://localhost:5000/api/v2/oauth/token \
+$ curl -X POST https://app.clever.cl/api/v2/oauth/token \
    -H 'Content-Type: application/json' \
    -d '{ "client_id": [CLIENT_ID], "client_secret": [CLIENT_SECRET], "username": "email@example.com", "password": [ENCRYPTED_PASSWORD], "grant_type": "password" }' 
 ```
