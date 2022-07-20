@@ -13,6 +13,7 @@ To register your own app on Clever check documentation [Api V2](/docs/api-v2)
 ## Create Access Token
 
 ### Endpoint
+
 ```
 POST /api/v2/oauth/token
 ```
@@ -23,7 +24,18 @@ POST /api/v2/oauth/token
 | Content-Type  | application/json  |
 | Accept        | application/json  |
 
-### Body
+### Body params
+
+| Params       | value             |
+|:--------------|:------------------|
+| client_id     | `client_secret` de tu app Client App registrada en Clever By BICE |
+| client_secret | `client_secret` de tu app Client App registrada en Clever By BICE   |
+| username      | `email` valido registrado en Clever By BICE (i.e `email@example.com`)  |
+| password      | `encrypted_password` el password del cliente debe ser encryptado con el certificado público de tu Client App|
+| grant_type    | `password` el tipo de flujo de OAuth 2.0 (i.e: `password`) |
+
+### Body Example
+
 ```json
 {
   "client_id": [CLIENT_ID],
