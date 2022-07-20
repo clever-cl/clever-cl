@@ -3,8 +3,7 @@ layout: page
 title: About Us
 nav_order: 2
 ---
-Clever by BICE is  a robo-advisor platform that empowers
-to people to invest in a digital, secure, and self-assisted environment.
+Clever by BICE es el robo-advisor del grupo Bicecorp S.A destinado a empoderar a las personas en sus inversiones y finanzas personales.
 
 ## CONTRIBUTORS
 Contribuyen en los diferentes artefactos de [Clever By BICE](https://clever.cl)
