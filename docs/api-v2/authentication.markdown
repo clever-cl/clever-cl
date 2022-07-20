@@ -43,32 +43,39 @@ POST /api/v2/oauth/token
    </tr>
    <tr>
       <td> 200 </td>
-<td>
-
-```json
+      <td>
+         <pre>
 {
-    "access_token": [ACCESS_TOKEN],
-    "token_type": "Bearer",
-    "expires_in": 7200,
-    "refresh_token": [REFRESH_TOKEN],
-    "created_at": 1658290998
+  "access_token": "[ACCESS_TOKEN]",
+  "token_type": "Bearer",
+  "expires_in": 7200,
+  "refresh_token": "[REFRESH_TOKEN]",
+  "created_at": 1658290998
 }
-```
-
-</td>
+         </pre>
+      </td>
    </tr>
-    <tr>
-      <td> 401 </td>
-<td>
-
-```json
+   <tr>
+      <td> 400 </td>
+      <td>
+         <pre>
 {
-    "error": "invalid_client",
-    "error_description": "Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method."
+  "error": "invalid_grant",
+  "error_description": "The provided authorization grant is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client."
 }
-```
-
-</td>
+        </pre>
+      </td>
+   </tr>   
+   <tr>
+      <td> 401 </td>
+      <td>
+         <pre>
+{
+  "error": "invalid_client",
+  "error_description": "Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method."
+}
+        </pre>
+      </td>
    </tr>
    <tr>
       <td> 403 </td>
