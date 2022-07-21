@@ -13,7 +13,7 @@ Perfil de riesgo de un cliente [Clever By BICE](https://clever.cl)
 ## Endpoint
 
 ```bash
-POST /api/v2/users/me/profile
+GET /api/v2/users/me/profile
 ```
 
 ## Headers
@@ -104,7 +104,7 @@ Work in progress
 ## Request example
 
 ```bash
-$ curl -X POST https://app.clever.cl/api/v2/users/me/profile \
+$ curl https://app.clever.cl/api/v2/users/me/profile \
    -H 'Content-Type: application/json' \
    -H 'Accept: application/json' \
    -H 'Authorization: Bearer [access_token]' \

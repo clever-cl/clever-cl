@@ -11,7 +11,7 @@ Retorna el recurso `user`
 ## Endpoint
 
 ```bash
-POST /api/v2/users/me
+GET /api/v2/users/me
 ```
 
 ## Headers
@@ -224,7 +224,7 @@ Work in progress
 ## Request example
 
 ```bash
-$ curl -X POST https://app.clever.cl/api/v2/users/me \
+$ curl https://app.clever.cl/api/v2/users/me \
    -H 'Content-Type: application/json' \
    -H 'Accept: application/json' \
    -H 'Authorization: Bearer [ACCESS_TOKEN]' \
