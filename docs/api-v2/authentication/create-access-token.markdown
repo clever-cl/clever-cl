@@ -27,9 +27,9 @@ POST /api/v2/oauth/token
 
 | Params       | value             |
 |:--------------|:------------------|
-| client_id     | `client_secret` de tu app Client App registrada en Clever By BICE |
-| client_secret | `client_secret` de tu app Client App registrada en Clever By BICE   |
-| username      | `email` valido registrado en Clever By BICE (i.e `email@example.com`)  |
+| client_id     | `client_secret` de tu app Client App registrada en [Clever By BICE](https://clever.cl) |
+| client_secret | `client_secret` de tu app Client App registrada en [Clever By BICE](https://clever.cl)   |
+| username      | `email` valido registrado en [Clever By BICE](https://clever.cl) (i.e `email@example.com`)  |
 | password      | `encrypted_password` el password del cliente debe ser encryptado con el certificado público de tu Client App|
 | grant_type    | `password` el tipo de flujo de OAuth 2.0 (i.e: `password`) |
 

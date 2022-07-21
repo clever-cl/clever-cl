@@ -8,7 +8,7 @@ permalink: /docs/api-v2
 
 # Api V2
 
-Clever Api V2 es la versión actual de la API pública de Clever By BICE.
+Clever Api V2 es la versión actual de la API pública de [Clever By BICE](https://clever.cl).
 
 En esta versión se incluyen las principales APIs que te permitirán interactuar con los recursos principales de nuestra plataforma
 

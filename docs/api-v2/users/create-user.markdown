@@ -8,7 +8,7 @@ nav_order: 2
 
 # Create User (wip)
 
-Crea un usuario en Clever By BICE
+Crea un usuario en [Clever By BICE](https://clever.cl)
 
 ## Endpoint
 
@@ -25,8 +25,9 @@ POST /api/v2/users
 
 ## Body params
 
-| Params       | value             |
+| Params        | Value             |
 |:--------------|:------------------|
+|               |                   |
 
 ### Body Example
 

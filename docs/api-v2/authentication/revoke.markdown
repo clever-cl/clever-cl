@@ -27,8 +27,8 @@ POST /api/v2/oauth/revoke
 
 | Params       | value             |
 |:--------------|:------------------|
-| client_id     | `client_secret` de tu app Client App registrada en Clever By BICE |
-| client_secret | `client_secret` de tu app Client App registrada en Clever By BICE   |
+| client_id     | `client_secret` de tu app Client App registrada en [Clever By BICE](https://clever.cl) |
+| client_secret | `client_secret` de tu app Client App registrada en [Clever By BICE](https://clever.cl)   |
 
 ### Body Example
 

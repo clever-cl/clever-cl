@@ -24,8 +24,9 @@ POST /api/v2/users/me
 
 ## Body params
 
-| Params        | value             |
+| Params        | Value             |
 |:--------------|:------------------|
+|               |                   |
 
 ### Body Example
 

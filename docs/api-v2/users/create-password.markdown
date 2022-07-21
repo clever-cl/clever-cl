@@ -25,8 +25,9 @@ POST /api/v2/users/:user_token/passwords
 
 ## Body params
 
-| Params       | value             |
+| Params        | Value             |
 |:--------------|:------------------|
+|               |                   |
 
 ### Body Example
 
