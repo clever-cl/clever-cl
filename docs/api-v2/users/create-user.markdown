@@ -1,17 +1,19 @@
 ---
 layout: default
-title: Me
+title: Create User
 grand_parent: Api V2
 parent: Users
-nav_order: 1
+nav_order: 2
 ---
-# Me (wip)
 
-Retorna el recurso `user`
+# Create User (wip)
+
+Crea un usuario en Clever By BICE
+
 ## Endpoint
 
 ```bash
-POST /api/v2/users/me
+POST /api/v2/users
 ```
 
 ## Headers
@@ -20,17 +22,21 @@ POST /api/v2/users/me
 |:--------------|:------------------|
 | Content-Type  | application/json  |
 | Accept        | application/json  |
-| Authorization | `Bearer [access_token]`  |
 
 ## Body params
 
-| Params        | value             |
+| Params       | value             |
 |:--------------|:------------------|
 
 ### Body Example
 
 ```json
-empty
+{
+  "user": {
+    "email": "email@example.com",
+    "utm": "utm_source=null&utm_medium=null&utm_campaign=null&utm_term=null&utm_content=null"
+  }
+}
 ```
 
 ## Responses
@@ -79,9 +85,8 @@ Work in progress
 ## Request example
 
 ```bash
-$ curl -X POST https://app.clever.cl/api/v2/users/me \
+$ curl -X POST https://app.clever.cl/api/v2/users \
    -H 'Content-Type: application/json' \
    -H 'Accept: application/json' \
-   -H 'Authorization: Bearer [ACCESS_TOKEN]' \
-   -d '{}' 
+   -d '{ "user": { "email": "email@example.com", "utm": "utm_source=null&utm_medium=null&utm_campaign=null&utm_term=null&utm_content=null" } }' 
 ```

@@ -1,17 +1,19 @@
 ---
 layout: default
-title: Me
+title: Reset Password
 grand_parent: Api V2
 parent: Users
-nav_order: 1
+nav_order: 4
 ---
-# Me (wip)
 
-Retorna el recurso `user`
+# Reset Password (wip)
+
+Recuperar contraseña
+
 ## Endpoint
 
 ```bash
-POST /api/v2/users/me
+POST /api/v2/users/password
 ```
 
 ## Headers
@@ -20,17 +22,20 @@ POST /api/v2/users/me
 |:--------------|:------------------|
 | Content-Type  | application/json  |
 | Accept        | application/json  |
-| Authorization | `Bearer [access_token]`  |
 
 ## Body params
 
-| Params        | value             |
+| Params       | value             |
 |:--------------|:------------------|
 
 ### Body Example
 
 ```json
-empty
+{
+    "user": { 
+        "email": "email@example.com" 
+    }        
+}
 ```
 
 ## Responses
@@ -79,9 +84,8 @@ Work in progress
 ## Request example
 
 ```bash
-$ curl -X POST https://app.clever.cl/api/v2/users/me \
+$ curl -X POST https://app.clever.cl/api/v2/users/password \
    -H 'Content-Type: application/json' \
    -H 'Accept: application/json' \
-   -H 'Authorization: Bearer [ACCESS_TOKEN]' \
-   -d '{}' 
+   -d '{ "user": { "email": "email@example.com" } }' 
 ```
