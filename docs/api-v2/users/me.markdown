@@ -176,7 +176,7 @@ empty
 |  goal_category    |                          |
 |  goal_id          |                          |
 |  mutual_fund      |                          |
-|  estimage_date    |                          |
+|  estimate_date    |                          |
 
 # Responses
 
