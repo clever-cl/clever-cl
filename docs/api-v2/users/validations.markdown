@@ -6,7 +6,7 @@ parent: Users
 nav_order: 5
 ---
 
-# Profile (legacy)
+# Validations (legacy)
 
 Permite validar la cédula de un cliente [Clever By BICE](https://clever.cl)
 
