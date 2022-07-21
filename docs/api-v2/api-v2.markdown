@@ -15,20 +15,35 @@ En esta versión se incluyen las principales APIs que te permitirán interactuar
 - `Users`
 - `Goals`
 - `Mutual Funds`
+
 ## Health Check
 
-### Endpoint
-```
+## Endpoint
+
+```bash
 GET /api/v2/health/check
 ```
-### Headers
+
+## Headers
 
 | headers       | Value             |
 |:--------------|:------------------|
 | Content-Type  | application/json  |
 | Accept        | application/json  |
 
-### Response
+## Body params
+
+| Params        | Value             |
+|:--------------|:------------------|
+|               |                   |
+
+### Body Example
+
+```json
+empty
+```
+
+## Responses
 
 <table>
    <tr>
@@ -54,7 +69,13 @@ GET /api/v2/health/check
    <tr>
       <td> 500 </td>
       <td>
-         Internal Server Error    
+         Internal Server Error
       </td>
    </tr>
 </table>
+
+## Request example
+
+```bash
+$ curl https://app.clever.cl/api/v2/health/check
+```
